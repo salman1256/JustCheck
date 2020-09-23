@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CricSite.master.cs" Inherits="CricWeb.CricSite" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="CricStyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+       
+       <div class="topP"><h1>Cric Information Web </h1></div>
+        <div class="leftP">Slide Show</div>
+      <div class="centerP">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                  
+                           
+            </asp:ContentPlaceHolder>
+           </div>
+  
+        <div class="rightP">Links</div>
+        <div class="footerP" style="text-align:center">All Rights reserved to CInformationWeb &reg;</div>
+     
+    </form>
+</body>
+</html>
